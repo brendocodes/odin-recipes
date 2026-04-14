@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #292923;
+  color: #fffdd0;
+  font-family: "Times New Roman", Georgia, Garamond, serif;
+  font-size: 16px;
+}
+
+#title {
+    color: #900000;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-size: 48px;
+    text-align: center;
+    margin: 16px auto 24px auto;
+    border: 4px inset skyblue;
+    padding: 8px;
+}
+
+.header {
+    color: #556b2f;
+    text-align: center;
+    margin: 8px auto;
+    border: 2px outset navy;
+    padding: 8px;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 8px auto;
+    border-bottom: 1px solid navy;
+    padding: 4px;
+}
+
+.unordered {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 8px;
+    margin: 8px auto 8px 16px;
+    border-left: 1px solid salmon;
+    padding: 8px; 
+}
