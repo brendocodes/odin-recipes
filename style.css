@@ -1,3 +1,8 @@
+/* These are the hex colors that I'd like to use as an earth-tone pallet 
+for the page: #3f4217 dark olive green, #4c5423 fatigue green, #8f7d6f
+bic lighter gray, #020001 jet black, #795839 cork,
+#1f1810 charcoal black, #653521 burnt sienna, #ae9b8a cream of wheat */
+
 html {
   box-sizing: border-box;
 }
@@ -16,35 +21,158 @@ body {
 }
 
 #title {
-    color: #900000;
+    color: #4c5423;
     font-family: "Brush Script MT", "Lucida Handwriting", cursive;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
-    margin: 16px auto 24px auto;
-    border: 4px inset skyblue;
+    margin: 8px auto 8px auto;
     padding: 8px;
 }
 
 .header {
-    color: #556b2f;
+    color: #653521;
+    font-size: 27px;
     text-align: center;
     margin: 8px auto;
-    border: 2px outset navy;
     padding: 8px;
+}
+
+.header p {
+  color:#4c5423;
+}
+
+.header.menu {
+  color:#795839;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .description {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 24px;
     margin: 8px auto;
-    border-bottom: 1px solid navy;
     padding: 4px;
 }
 
+.images {
+  text-align: center;
+}
+
 .unordered {
+    display: flex;
+    color: #ae9b8a;
+    text-decoration: none;
     font-family: "Courier New", Courier, monospace;
-    font-size: 8px;
-    margin: 8px auto 8px 16px;
-    border-left: 1px solid salmon;
-    padding: 8px; 
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding: 0px; 
+}
+
+.unordered ul{
+  display: flex;
+    color: #ae9b8a;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.unordered ul li {
+  display: inline-block;
+    color: #ae9b8a;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    margin: 0px 48px;
+    padding: 0px 48px;
+}
+
+.ingredients {
+  display: block;
+  width: 1000px;
+  height: auto;
+  color: #8f7d6f;
+  font-family: "Courier New", Courier, monospace;
+  margin: 20px auto;
+}
+
+.ingredients ul{
+    display: block;
+    color: #fffdd0;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ingredients ul li {
+  font-size: 24px;
+  margin: 0px auto;
+  padding: 8px;
+}
+
+.steps {
+  display: block;
+  text-align: center;
+  width: auto;
+  height: auto;
+  color: #ae9b8a;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+}
+
+.steps ol{
+    display: block;
+    color: #ae9b8a;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.steps ol li {
+  font-size: 24px;
+  margin: 0px;
+  padding: 8px 0px;
+}
+
+ol,
+li {
+  list-style-position: inside;
+}
+
+#home {
+  text-align: center;
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+
+}
+
+button {
+  color: #8f7d6f;
+    background-color: #1f1810;
+    text-decoration: none;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-size: 48px;
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    border: 4px inset #3f4217;
+    margin: 16px auto 24px auto;
+    padding: 4px;
+}
+
+button a {
+  color: #8f7d6f;
+  background-color: #1f1810;
+  text-decoration: none;
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+}
+
+a {
+  color: #8f7d6f;
+  text-decoration: none;
+  font-family: inherit;
+  padding: 8px;
 }
